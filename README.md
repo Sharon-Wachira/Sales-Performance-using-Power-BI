@@ -19,7 +19,7 @@ The dashboard provides insights that can support strategic decision-making, sale
 
 # Dashboard Preview
 
-The dashboard presents a clean and executive-style layout featuring:
+The dashboard contents: 
 
 * Sales KPIs
 * Regional performance analysis
