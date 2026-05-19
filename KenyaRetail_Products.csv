@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,cost_price
+P001,Laptop Dell 15,Electronics,45000,32000
+P002,"Samsung TV 43""",Electronics,55000,38000
+P003,iPhone Charger,Electronics,2500,800
+P004,Bluetooth Speaker,Electronics,4500,2200
+P005,LED Desk Lamp,Electronics,1800,700
+P006,Office Chair,Furniture,15000,8000
+P007,Study Desk,Furniture,12000,6500
+P008,Filing Cabinet,Furniture,8500,4500
+P009,Bookshelf,Furniture,6000,3000
+P010,Whiteboard 4x3,Furniture,4200,1800
+P011,Unga Pembe 5kg,Groceries,650,380
+P012,Cooking Oil 2L,Groceries,420,220
+P013,Sugar 2kg,Groceries,220,120
+P014,Rice Pishori 5kg,Groceries,750,420
+P015,Milk 1L,Groceries,80,45
+P016,A4 Paper Ream,Stationery,550,250
+P017,Pens Box 50,Stationery,350,120
+P018,Stapler Heavy Duty,Stationery,850,380
+P019,Notebook A4,Stationery,180,60
+P020,Printer Ink Set,Stationery,2800,1400
