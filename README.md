@@ -27,9 +27,8 @@ The dashboard contents:
 * Category-level analysis
 * Monthly sales trends
 * Payment method distribution
-* Interactive filtering and drill-down capabilities
+* Interactive filtering.
 
----
 
 # Business Objectives
 
@@ -44,26 +43,15 @@ The primary objective of this project was to design a Business Intelligence dash
 7. Assess customer payment preferences.
 8. Enable data-driven business decisions through interactive reporting.
 
----
 
-# Dataset Information
+## Dataset Information
 
-## Dataset Nature
+This is a simulated Kenyan retail sales dataset containing transactional sales records from multiple regions and cities across Kenya.
+It is an AI generated dataset that replicates the retail industry in Kenya. 
 
-The dataset is a simulated Kenyan retail sales dataset containing transactional sales records from multiple regions and cities across Kenya.
-
-The data represents:
-
-* Customer purchases
-* Product-level transactions
-* Regional sales distribution
-* Sales representative activity
-* Revenue and profitability metrics
-* Payment methods used by customers
 
 The dataset contains **400 sales transactions** and was structured to support Business Intelligence reporting and analytical modeling.
 
----
 
 # Dataset Columns and Description
 
@@ -87,69 +75,40 @@ The dataset contains **400 sales transactions** and was structured to support Bu
 | `payment_method` | Customer payment method used                                     |
 | `sales_rep`      | Sales representative responsible for the sale                    |
 
----
 
-# Key Performance Indicators (KPIs)
+# KPIs
 
-The dashboard includes several high-level KPIs designed to measure business performance:
 
 ## 1. Total Sales
 
 Measures the overall revenue generated from all transactions.
 
-**Dashboard Result:** Ksh 16M
+**Total Sales =** Ksh 16M
 
----
 
 ## 2. Total Orders
 
 Tracks the total number of completed orders.
 
-**Dashboard Result:** 400 Orders
-
----
+**Orders**
 
 ## 3. Average Order Value (AOV)
 
 Measures the average revenue generated per order.
 
-### Formula
+ **Ksh 41K**
 
-```DAX
-Average Order Value = DIVIDE([Total Sales], [Total Orders])
-```
-
-**Dashboard Result:** Ksh 41K
-
----
 
 ## 4. Total Profit
 
-Measures total profit generated after deducting costs.
+ **Ksh 6M**
 
-### Formula
-
-```DAX
-Total Profit = SUM(Sales[profit])
-```
-
-**Dashboard Result:** Ksh 6M
-
----
 
 ## 5. Profit Margin
 
 Measures profitability as a percentage of total sales.
 
-### Formula
-
-```DAX
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
-```
-
-**Dashboard Result:** 39%
-
----
+**39%**
 
 # Data Modeling and DAX
 
@@ -159,23 +118,8 @@ This project involved:
 * Building relationships between data fields
 * Creating calculated measures using DAX
 * KPI calculations and performance metrics
-* Time-based analysis using month and quarter dimensions
+* Time-based analysis using month and quarter dimensions (filters)
 
-### Example DAX Measures
-
-```DAX
-Total Sales = SUM(Sales[total_sales])
-
-Total Orders = COUNT(Sales[order_id])
-
-Total Profit = SUM(Sales[profit])
-
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
-```
-
-The use of DAX enabled dynamic calculations, aggregation logic, and interactive reporting functionality.
-
----
 
 # Dashboard Features
 
@@ -189,8 +133,6 @@ The dashboard includes dynamic slicers that allow users to filter data by:
 
 This improves report usability and allows stakeholders to drill into specific business segments.
 
----
-
 ## Sales by Region Analysis
 
 A horizontal bar chart was used to compare sales performance across Kenyan regions.
@@ -201,7 +143,6 @@ This visualization helps identify:
 * Underperforming markets
 * Regional revenue contribution
 
----
 
 ## Sales Representative Performance Analysis
 
@@ -213,7 +154,6 @@ A tabular visualization was used to analyze:
 
 This supports employee performance evaluation and sales team management.
 
----
 
 ## Sales by Category
 
@@ -228,8 +168,6 @@ The dashboard compares:
 
 This helps management understand which product lines drive the highest revenue.
 
----
-
 ## Monthly Sales Trend Analysis
 
 A line chart was used to visualize monthly sales performance trends.
@@ -241,7 +179,6 @@ This enables:
 * Revenue fluctuation monitoring
 * Forecasting support
 
----
 
 ## Payment Method Analysis
 
@@ -257,7 +194,6 @@ The dashboard analyzes the usage of:
 
 This provides insights into customer payment behavior and digital payment adoption.
 
----
 
 # Key Insights from the Dashboard
 
@@ -271,7 +207,6 @@ This suggests:
 * Better market penetration
 * Higher purchasing power in the region
 
----
 
 ## 2. Electronics Was the Best-Performing Category
 
@@ -283,13 +218,12 @@ This indicates:
 * Greater revenue contribution per transaction
 * Potential opportunities for inventory expansion
 
----
+
 
 ## 3. Strong Profitability Performance
 
 The business achieved a profit margin of approximately 39%, indicating healthy operational profitability.
 
----
 
 ## 4. Mobile Payments Dominated Transactions
 
@@ -301,7 +235,6 @@ This reflects:
 * Importance of digital payment integration
 * Customer preference for convenient payment methods
 
----
 
 ## 5. Sales Performance Fluctuated Across Months
 
@@ -312,8 +245,6 @@ This could indicate:
 * Seasonal purchasing behavior
 * Promotional effects
 * Demand fluctuations across different months
-
----
 
 ## 6. Sales Representatives Showed Varied Performance Levels
 
@@ -329,7 +260,6 @@ This insight can support:
 * Incentive planning
 * Workforce performance management
 
----
 
 # Tools and Technologies Used
 
@@ -341,7 +271,6 @@ This insight can support:
 | Data Modeling                   | Relationship building and analytical structure |
 | Microsoft Excel / CSV           | Dataset storage and preparation                |
 
----
 
 # Skills Demonstrated
 
@@ -359,7 +288,6 @@ This project demonstrates practical Business Intelligence and Business Analytics
 * Profitability Analysis
 * Executive Reporting
 
----
 
 # Business Value of the Dashboard
 
@@ -371,8 +299,6 @@ This dashboard can support business stakeholders by:
 * Monitoring operational efficiency
 * Tracking sales team performance
 * Supporting revenue growth strategies
-
----
 
 # Conclusion
 
@@ -387,12 +313,4 @@ The dashboard was designed with a strong focus on:
 * Decision support
 
 It reflects my capability to apply Business Intelligence techniques to solve real-world business reporting challenges and deliver data-driven insights for stakeholders.
-
----
-
-# Author
-
-**SB Analytics**
-
-Business Analytics | Business Intelligence | Data Visualization | Power BI | DAX | Data Analysis
 
