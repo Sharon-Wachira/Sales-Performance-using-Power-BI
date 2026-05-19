@@ -123,6 +123,9 @@ This project involved:
 
 # Dashboard Features
 
+<img width="1776" height="972" alt="image" src="https://github.com/user-attachments/assets/df3491f2-1b19-428c-8d12-f6d3444ece0e" />
+
+
 ## Interactive Filters (Slicers)
 
 The dashboard includes dynamic slicers that allow users to filter data by:
