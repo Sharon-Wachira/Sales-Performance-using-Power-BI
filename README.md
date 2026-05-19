@@ -123,7 +123,7 @@ This project involved:
 
 # Dashboard Features
 
-<img width="1776" height="972" alt="image" src="https://github.com/user-attachments/assets/df3491f2-1b19-428c-8d12-f6d3444ece0e" />
+<img width="1374" height="760" alt="image" src="https://github.com/user-attachments/assets/fabadcfb-e864-485a-b927-a4b97937737c" />
 
 
 ## Interactive Filters (Slicers)
